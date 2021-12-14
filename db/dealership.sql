@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS dealership;
+USE dealership;
+
+CREATE TABLE car (
+	carID INT NOT NULL AUTO_INCREMENT,
+	name VARCHAR(45) NOT NULL,
+	brand VARCHAR (45) NOT NULL,
+	value TEXT NOT NULL,
+	carYear TEXT NOT NULL,
+	carType VARCHAR (45) NOT NULL,
+	imgPath VARCHAR (45),
+	PRIMARY KEY(carID)
+);
